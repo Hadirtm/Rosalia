@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>گالری بدلیجات</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #fdf6f0;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #b49c73;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #555;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+
+    .banner {
+      background-image: url('https://images.unsplash.com/photo-1600718371248-ecd7d3b5c29d');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #b49c73;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    .product-card p {
+      color: #777;
+      font-size: 14px;
+      margin: 0 10px 10px;
+    }
+
+    footer {
+      background-color: #fdf6f0;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+      border-top: 1px solid #eee;
+    }
+
+    @media (max-width: 600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>گالری بدلیجات نقره‌گون</h1>
+    <nav>
+      <a href="#">خانه</a>
+      <a href="#">محصولات</a>
+      <a href="#">درباره ما</a>
+      <a href="#">تماس با ما</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    درخشش خاص برای استایل خاص تو
+  </div>
+
+  <section class="section">
+    <h2>محصولات ویژه</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1618354691438-3a0f4cb75b81" alt="گردنبند">
+        <h3>گردنبند طلایی</h3>
+        <p>طراحی مینیمال با آبکاری طلا</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1618354690665-f1046b8f579d" alt="دستبند">
+        <h3>دستبند ظریف</h3>
+        <p>جنس استیل ضدحساسیت</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1589038904430-ec7b9cb7b9af" alt="انگشتر">
+        <h3>انگشتر نگین‌دار</h3>
+        <p>الهام‌گرفته از سبک کلاسیک</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color:#fffaf0;">
+    <h2>درباره ما</h2>
+    <p style="max-width: 600px; margin: auto;">
+      گالری نقره‌گون با الهام از زیبایی‌های کلاسیک و طراحی‌های مدرن، مجموعه‌ای از بدلیجات خاص و با کیفیت را ارائه می‌دهد. هدف ما این است که هر مشتری با درخشش و اعتمادبه‌نفس، استایل خودش را بسازد.
+    </p>
+  </section>
+
+  <footer>
+    © تمامی حقوق محفوظ است - گالری نقره‌گون | تماس: 0912-0000000
+  </footer>
+
+</body>
+</html>
